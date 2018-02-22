@@ -1,0 +1,196 @@
+@font-face {}
+
+body,
+html {
+    margin: 0px;
+    background-image: url("../img/fondo.jpg");
+}
+
+body {
+    width: 100%;
+}
+
+body,
+input,
+select,
+label {
+    font-size: 1vw;
+    font-family: helvetica;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover {
+    background-color: #fffdcf;
+}
+
+#inicio,
+#content,
+#resultadosDiv,
+#resultadoTotal {
+    background-image: url("../img/fondo2.jpg");
+}
+
+
+/*----------------------------------------PAGINA DE INICIO------------------------------------------------------*/
+
+#inicio {
+    width: 40%;
+    background-color: #fff;
+    padding: 3%;
+    margin-left: 25%;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 3px solid black;
+    position: absolute;
+    display: block;
+}
+
+#header {
+    border-bottom: 2px solid #000;
+    padding-bottom: 2%;
+}
+
+#header h1 {
+    width: 60%;
+    float: right;
+    font-family: Helvetica;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.logo {
+    width: 15%;
+    height: 15%;
+    margin-left: 5%;
+}
+
+#comenzar h2,
+h4 {
+    text-align: center;
+}
+
+#izquierda {
+    width: 40%;
+    float: left;
+}
+
+#derecha {
+    width: 40%;
+    float: right;
+}
+
+#reset {
+    width: 40%;
+    float: left;
+}
+
+#acceder {
+    width: 55%;
+    float: right;
+}
+
+
+/*--------------------------------------------------EXAMEN--------------------------------------------------*/
+
+#content {
+    width: 50%;
+    background-color: #fff;
+    padding: 3%;
+    margin: 0 auto;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 3px solid black;
+    display: none;
+}
+
+#content .logo {
+    width: 15%;
+    height: 15%;
+}
+
+#content h1 {
+    margin-top: 3%;
+}
+
+#info {
+    padding-bottom: 3%;
+    border-bottom: 1px solid black;
+}
+
+
+/*------------------------------------------------FORMULARIO---------------------------------------------------------*/
+
+h3 {
+    font-size: 1.5vw
+}
+
+#myform select {
+    width: 50%;
+    border-style: outset;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+select[type=multiple] {
+    zoom: 1.5;
+    background-color: blue;
+}
+
+#myform input[type=text] {
+    width: 47%;
+    zoom: 1.5;
+}
+
+input[type=radio] {
+    width: 5%;
+    zoom: 1.5;
+}
+
+input[type=checkbox] {
+    width: 5%;
+    zoom: 1.5;
+}
+
+form {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.imagenUno {
+    width: 75%;
+}
+
+
+/*-----------------------------------------------CORRECION------------------------------------------*/
+
+#resultadoTotal {
+    width: 40%;
+    background-color: #fff;
+    padding: 3%;
+    margin: 0 auto;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 3px 3px 0 3px solid black;
+    display: none;
+}
+
+#resultadosDiv {
+    width: 40%;
+    background-color: #fff;
+    padding: 3%;
+    margin: 0 auto;
+    margin-top: -1%;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0 3px 3px 3px solid black;
+    display: none;
+}
+
+#resultadoTotal p {
+    padding: 0;
+    text-align: center;
+    font-size: 5em;
+}

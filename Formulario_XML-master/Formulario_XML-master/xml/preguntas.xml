@@ -1,0 +1,114 @@
+<!--"jams" (Jonathan, Adrián, Mariano y Sergi) seguido de 3 dígitos para enumerarlas.
+type = tipo de pregunta
+title = enunciado
+option = opcion de respuesta
+answer = respuesta (si hay más de una, aparecerán separadas)
+Mucho ojo en el campo "answer", el número de la respuesta empieza a contar de 0, es decir, la primera respuesta siempre será la 0.-->
+
+<!--<!DOCTYPE questions SYSTEM "preguntas.dtd">-->
+<questions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation='preguntas.xsd'>
+ <question id='jams001'>
+  <type>text</type>
+  <title>¿Que significa HTML?</title>
+  <answer>HyperText Markup Language</answer>
+ </question>
+
+
+ <question id='jams002'>
+  <type>select</type>
+  <title>¿Qué etiqueta se utiliza para hacer listas ordenadas?</title>
+  <option>el</option>
+  <option>li</option>
+  <option>ol</option>
+  <option>ul</option>
+  <answer>2</answer>
+ </question>
+
+
+ <question id='jams003'>
+  <type>multiple</type>
+  <title>¿Que versiones ha tenido HTML?</title>
+  <option>Version 2.0</option>
+  <option>Version 6.3</option>
+  <option>Version 4.1</option>
+  <option>Verison 5.0</option>
+  <answer>0</answer>
+  <answer>2</answer>
+  <answer>3</answer>
+ </question>
+
+
+ <question id='jams004'>
+  <type>checkbox</type>
+  <title>¿Que hace el siguiente código JavaScript al ejecutarse?</title>
+  <option>Aparece una ventana en la que se muestra "Hello!!!!"</option>
+  <option>Crea un documento HTML llamado "Hello World!!!!.html"</option>
+  <option>Crea un documento con un ID llamado "Hello World!!!!"</option>
+  <option>Utiliza el ID "demo" para crear un texto "Hello World!!!!"</option>
+  <answer>0</answer>
+  <answer>3</answer>
+  </question>
+
+
+  <question id='jams005'>
+   <type>radio</type>
+   <title>¿Cual de los siguientes códigos HTML es correcto?</title>
+   <option>&lt;background-image: src='../img/fondo.png'&gt;</option>
+   <option>&lt;background: image-url='../img/fondo.png'&gt;</option>
+   <option>&lt;background-image: url('../img/fondo.png')&gt;</option>
+   <answer>2</answer>
+   </question>
+
+
+   <question id='jams006'>
+    <type>checkbox</type>
+    <title>¿Cómo se declara correctamente una variable en JavaScript?</title>
+    <option>nuevaVariable = true</option>
+    <option>public boolean nuevaVariable = true;</option>
+    <option>var nuevaVariable = true;</option>
+    <answer>2</answer>
+    </question>
+
+
+  <question id='jams007'>
+    <type>text</type>
+    <title>¿Que atributo has de poner en CSS para poner un color de fondo? </title>
+    <answer>background-color</answer>
+    </question>
+
+
+  <question id='jams008'>
+    <type>select</type>
+    <title>¿Cual de estas NO es una propiedad de posición en CSS?</title>
+    <option>static</option>
+    <option>relative</option>
+    <option>fixed</option>
+    <option>floating</option>
+    <option>absolute</option>
+    <answer>3</answer>
+    </question>
+
+
+  <question id='jams009'>
+    <type>multiple</type>
+    <title>¿Cuales de los siguientes operadores son correctos en JavaScript?</title>
+    <option>++</option>
+    <option>*</option>
+    <option>÷</option>
+    <option>-</option>
+    <option>%</option>
+    <answer>0</answer>
+    <answer>1</answer>
+    <answer>3</answer>
+    <answer>4</answer>
+    </question>
+
+  <question id='jams010'>
+    <type>radio</type>
+    <title>Si el valor de la variable "numero" es 10,¿Qué mensaje de alerta se mostrará en la pantalla?</title>
+    <option>"Hola"</option>
+    <option>"Adiós"</option>
+    <option>No se mostrará nada</option>
+    <answer>1</answer>
+    </question>
+</questions>

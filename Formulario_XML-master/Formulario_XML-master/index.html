@@ -1,0 +1,118 @@
+<!--<!DOCTYPE html>-->
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link rel='stylesheet' media='screen and (min-width: 961px)' href='css/d.css'>
+    <link rel='stylesheet' media='screen and (max-width: 960px)' href='css/m.css'>
+    <script src='js/preguntas.js'></script>
+</head>
+
+<body>
+    <div id="inicio">
+        <div id="header">
+            <img class="logo" src="img/logo.png" alt="">
+            <h1>UNIVERSIDAD DE<br> ARTES GRÁFICAS</h1>
+        </div>
+        <form id="comenzar">
+            <h2>Examen Final Lenguaje de Marcas</h2>
+            <h4>Introduce los datos para comenzar</h4>
+            <div id="izquierda">
+                <label class="nombre">Nombre:</label><br>
+                <input id="nombre" type="text" placeholder="Ej: Miguel Angel" minlength="3" required><br><br>
+                <label class="apellidos">Apellidos:</label><br>
+                <input id="apellidos" type="text" placeholder="Ej: Urbina Pons" minlength="3" required><br><br>
+            </div>
+            <div id="derecha">
+                <label class="dni">DNI / NIE:</label><br>
+                <input id="dni" type="text" placeholder="Ej: 41234567A" minlength="9" required><br><br>
+                <label class="email">Correo electrónico:</label><br>
+                <input id="email" type="email" placeholder="Ej: email@email.com" minlength="12" required><br><br>
+                <input id="reset" type="reset" value="Borrar">
+                <input id="acceder" type="button" value="Comenzar" onclick="mostrar()">
+            </div>
+        </form>
+    </div>
+    <div id="content">
+        <div id="header">
+            <img class="logo" src="img/logo.png" alt="">
+            <h1>UNIVERSIDAD DE<br> ARTES GRÁFICAS</h1>
+        </div>
+        <form id='myform'>
+            <div id="info">
+                <h2>
+                    La puntuación de este examen es la siguiente:<br>
+                    <h3>Preguntas <u>correctas</u> suman 1 punto.</h3>
+                    <h3>Preguntas <u>incorrectas</u> restan 0'33 </h3>
+                    <h3>Preguntas <u>no contestadas</u> ni suman ni restan.</h3>
+                </h2>
+            </div><br>
+            <h3 id='tituloInput'></h3>
+            <input id='text' type='text' size="25 " placeholder="Ej: HTML">
+            <br><br><br>
+
+            <h3 id='tituloSelect'></h3>
+            <select id='sel'>
+            <option selected value="-1">Selecciona una...</option>
+        </select>
+            <br><br><br>
+
+            <h3 id='tituloSelMul'></h3>
+            <select id='selMul' multiple>
+
+        </select>
+            <br><br><br>
+            <h3 id='tituloCheckbox'></h3>
+            <img class="imagenUno" src="img/pregunta.png" alt="preguntaUno"><br>
+            <div id='checkboxDiv'></div>
+            <br><br><br>
+
+            <h3 id='tituloRadio'></h3>
+            <div id='radioDiv'></div>
+            <br><br><br>
+
+            <h3 id='tituloCheckbox2'></h3>
+            <div id='checkboxDiv2'></div>
+            <br><br><br>
+
+            <h3 id='tituloInput2'></h3>
+            <input id="text2" type="text" size="25" placeholder="Ej: fondo-color">
+            <br><br><br>
+
+            <h3 id='tituloSelect2'></h3>
+            <select id='sel2'>
+            <option selected value="-1">Selecciona una...</option>
+            </select>
+            <br><br><br>
+
+            <h3 id='tituloSelMul2'></h3>
+            <select id='selMul2' multiple>
+
+            </select>
+            <br><br><br>
+
+            <h3 id='tituloRadio2'></h3>
+            <div id='radioDiv2'></div>
+            <br><br>
+
+            <input type='submit' value='Finalizar'>
+
+        </form>
+    </div>
+    <div id='resultadoTotal'>
+        <div id="header">
+            <img class="logo" src="img/logo.png" alt="">
+            <h1>UNIVERSIDAD DE ARTES GRÁFICAS</h1>
+        </div>
+        <p id="respuestas"></p>
+    </div>
+    <div id='resultadosDiv'>
+
+    </div>
+
+
+</body>
+
+</html>
